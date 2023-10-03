@@ -2,9 +2,23 @@
 
 (Your pseudocode here)
 
+1. ask for the input the first number (let's call it 'a')
+2. ask for the input the second number (let's call it 'b')
+3. Calculate the sum of 'a' and 'b': sum = a + b
+4. Display the sum
+5. End
+
+
 // Exercise 2: Check if a Number is Even or Odd
 
 (Your pseudocode here)
+
+1. Ask for the input a number (let's call it 'c')
+2. If (c is divisible by 2 with no remainder):
+     - Display "The number is even"
+   Else:
+     - Display "The number is odd"
+3. End
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -15,5 +29,63 @@ c) Find the smallest (minimum) and largest (maximum) of the five entered numbers
 d) Write out the results found from steps b and c with a message describing what they are
 
 (Your pseudocode here)
+a) for 5 numbers a,b,c,d and e
+1. Start
+2. Display "Enter number for 'a':"
+3. Input a number and store it in variable 'a'.
+4. Display "Enter number for 'b':"
+5. Input a number and store it in variable 'b'.
+6. Display "Enter number for 'c':"
+7. Input a number and store it in variable 'c'.
+8. Display "Enter number for 'd':"
+9. Input a number and store it in variable 'd'.
+10. Display "Enter number for 'e':"
+11. Input a number and store it in variable 'e'.
+12. End
+
+b) Calculate the average of the five numbers.
+1. Start
+2. Read in five numbers: a, b, c, d, e.
+3. Calculate the sum of the five numbers: sum = a + b + c + d + e.
+4. Calculate the average: average = sum / 5.
+5. Display the average.
+6. End
+
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+1. Start
+2. Read in five numbers: a, b, c, d, e.
+3. Initialize variables min and max to the value of a (min = a, max = a).
+4. Compare b, c, d, and e with min and max:
+   . If b < min, set min = b.
+   . If b > max, set max = b.
+   . If c < min, set min = c.
+   . If c > max, set max = c.
+   . If d < min, set min = d.
+   . If d > max, set max = d.
+   . If e < min, set min = e.
+   . If e > max, set max = e.
+5. Display the minimum (min) and maximum (max) values.
+6. End
+
+d) Write out the results found from steps b and c with a message describing what they are
+
+1. Start
+2. Read in five numbers: a, b, c, d, e.
+3. Calculate the sum of the five numbers: sum = a + b + c + d + e.
+4. Calculate the average: average = sum / 5.
+5. Initialize variables min and max to the value of a (min = a, max = a).
+6. Compare b, c, d, and e with min and max:
+   a. If b < min, set min = b.
+   b. If b > max, set max = b.
+   c. If c < min, set min = c.
+   d. If c > max, set max = c.
+   e. If d < min, set min = d.
+   f. If d > max, set max = d.
+   g. If e < min, set min = e.
+   h. If e > max, set max = e.
+7. Display the calculated average, minimum (min), and maximum (max) values.
+8. End
+
+
 
 -- END --
